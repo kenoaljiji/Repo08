@@ -1,4 +1,4 @@
-function randomRageNumber(minNumber, maxNumber) {
+function randomRangeNumber(minNumber, maxNumber) {
   //Only change code below this line
 
   //Only change code above this line
@@ -6,6 +6,6 @@ function randomRageNumber(minNumber, maxNumber) {
   return Math.floor(Math.random() * (maxNumber - minNumber + 1)) + minNumber;
 }
 
-console.log(randomRageNumber(3, 10));
+console.log(randomRangeNumber(3, 10));
 
-module.exports = randomRageNumber;
+module.exports = randomRangeNumber;
