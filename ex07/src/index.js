@@ -14,11 +14,8 @@ function addFive() {
   console.log("addFive: " + sum);
 }
 
-//Only change code below this line
 addThree();
 addFive();
-
-//Only change code above this line
 
 module.exports = {
   addThree,
