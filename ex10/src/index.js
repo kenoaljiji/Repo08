@@ -8,7 +8,6 @@ function mathTest(x, y) {
 }
 
 console.log(mathTest(2, 2));
-console.log(mathTest(2, 2));
 console.log(mathTest(-2, 2));
 console.log(mathTest(2, -2));
 console.log(mathTest(2, 8));
