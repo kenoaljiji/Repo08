@@ -6,3 +6,5 @@ function randomInteger() {
 }
 
 console.log(randomInteger());
+
+module.exports = randomInteger;
